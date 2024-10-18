@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Doondi">
+    <title>ID Card</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        p{
+            color: black;
+        }
+    </style>
+</head>
+<body>
+
+<div class="id-card" id="idCard">
+    
+    <div class="student-info">
+        <img src="/resources/reclogo.png" alt="https://res.cloudinary.com/djh5qkdfk/image/upload/v1729274697/Add_a_heading_1_svvskj.png" height="150" width="300" title="college information">
+    <div class="student-info2">
+        <img id="studentPhoto" class="center" height="140" width="300" title="student photo">
+        <p id="student-blood">&#x1FA78;
+        <span style="color: rgb(234, 39, 13); font-weight: bold;" "highlight" id="studentBlood"></span>
+        </p>
+    </div>
+        <div class="student-name" id="studentName"></div>
+        <div class="student-roll" id="studentRoll"></div>
+        <div class="student-details">
+        <p>
+            <span class="highlight">Department:</span> <span id="studentBranch"></span><br>
+            <span class="highlight">Batch:</span> <span id="studentYear"></span><br>
+            <span class="highlight">Email:</span> <span id="studentEmail"></span><br>
+            <span class="highlight">D.O.B:</span> <span id="studentBirthday"></span><br>
+        </p>
+        </div>
+    </div>
+    <div class="student-address">
+        <p style="color: white;"><h2>ADDRESS:</h2></p>
+        <p style="color: white;"id="studentAddress"></p>
+    </div>
+    
+<script src="script.js"></script>
+
+</body>
+</html>

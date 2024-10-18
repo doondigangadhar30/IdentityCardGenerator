@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Varela+Round&display=swap')
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f1f14993;
+}
+
+.input-section {
+    margin-bottom: 20px;
+}
+
+.id-card {
+    width: 300px;
+    height: 500px;
+    background-color:white;
+    color: black;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.student-address {
+    background-color: black;
+    color: white;
+    font-size: 10px;
+    font-weight: bold;
+    text-align: left;
+    width: 100%;
+    margin: auto;
+    padding-left: 8px;
+}
+
+.student-name {
+    color: red;
+    font-family: "Oswald", sans-serif;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.student-roll {
+    color: blue;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.student-info {
+    color: rgb(0, 0, 0)
+    font-size: 18px;
+    text-align: center;
+}
+
+.student-info2 {
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+#student-photo{
+    margin-right: 20px;
+}
+
+#student-blood {
+    position: absolute;
+    right: 0;
+    font-size: 18px; 
+}
+
+.highlight {
+    color: rgb(0, 0, 0);
+    font-weight: bold;    
+}
+
+.student-details{
+    text-align: left;
+    padding-left: 50px;
+    font-size: 15px;
+}
+#studentBranch {
+    text-transform: uppercase;
+}
+
+img.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
