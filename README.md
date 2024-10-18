@@ -1,43 +1,54 @@
 # ID Card Generator 🎯
-
 Welcome to the **Raghu Engineering College ID Card Generator**, a project designed to generate personalized student ID card.
 
 ## Table of Contents 📖
-
 - [Overview 🎯](#overview-)
+- [Details Required 📝](#details-required-)
 - [Features ✨](#features-)
 - [Technologies Used 🛠️](#technologies-used-)
-- [Screenshots 🖼️](#screenshots-)
 - [Links 📌](#links-)
 
 ## Overview 🎯
 
-The **ID Card Generator** allows users to input essential details like name, department, batch, email, and photo to create a customized ID card. It is a simple yet effective tool for institutions to quickly generate professional-looking ID cards with just a few clicks.
+The **ID Card Generator** allows users to input essential information such as their name, date of birth, blood group, and branch to create a personalized and professional-looking ID card in seconds.
+
+## Details Required 📝
+
+To generate an ID card, users need to provide the following information:
+
+- **Name**: Enter your full name.
+- **Date of Birth**: Provide your date of birth in the format (dd-mm-yyyy).
+- **Blood Group**: Specify your blood group.
+- **Roll Number**: Enter your roll number.
+- **Branch**: Enter your department (eg: CSE(DS) ).
+- **Year of Joining**: Enter the year you started.
+- **Email**: Provide your email address.
+- **Address**: Enter your house number, street name, and village/city.
+- **Upload Photo**: Upload a personal photo for the ID card.
 
 ## Features ✨
 
-- **User Information Input**: Easily fill in name, department, batch year, email, and other required fields.
-- **Photo Upload**: Users can upload a personal image for the ID card.
-- **Instant ID Generation**: Generates an ID card based on the provided data and allows for display or download.
-- **Batch Year Calculation**: Automatically calculates the batch year (e.g., 2022-26) based on the year of joining.
-  
+- **Input Form**: Simple form to collect user details.
+- **Photo Upload**: Upload and display the user’s photo on the ID card.
+- **Automatic Batch Calculation**: Automatically calculates the batch duration based on the year of joining (e.g., 2022-26).
+- **ID Card Generation**: Instantly generates an ID card with the provided details.
+
 ## Technologies Used 🛠️
 
-- **HTML**: For structuring the user input form and card layout.
-- **CSS**: For styling the ID card and ensuring a professional appearance.
-- **JavaScript**: For handling user data input, image upload, and dynamic card generation.
+- **HTML**: For structuring the form and ID card layout.
+- **CSS**: To style the form and card for a professional look.
+- **JavaScript**: For processing user inputs and dynamically generating the ID card.
 
 ## Screenshots 🖼️
 
-Here’s a screenshot of the **ID Card Generator** in action:
+Here’s a virtual demo of the **ID Card Generator** in action:
 
-![Untitled design]
-
+![Untitled design](https://res.cloudinary.com/djh5qkdfk/image/upload/v1729284082/Untitled_design_1_yky5wg.gif)
 ## Links 📌
 
-- Live Site URL: [Live ID Card Generator](https://github.com/yourusername/id-card-generator)
-- Project Repository: [GitHub Repo](https://github.com/yourusername/id-card-generator)
-- Connect on [LinkedIn](https://www.linkedin.com/in/yourprofile)
+- Live Site URL: https://doondigangadhar30.github.io/Rec_ID_Card_Generator/
+- Project Repository:https://github.com/doondigangadhar30/Rec_ID_Card_Generator
+- Let's Connect: [LinkedIn](https://www.linkedin.com/in/doondi)
 
 ---
 
