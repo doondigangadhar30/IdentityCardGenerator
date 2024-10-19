@@ -101,8 +101,8 @@ body {
     text-transform: uppercase;
 }
 .student-address{
-    padding-top: 3px;
-    padding-bottom: 6px;
+    padding: auto;
+    margin-bottom: 3px;
 }
 
 img.center {
