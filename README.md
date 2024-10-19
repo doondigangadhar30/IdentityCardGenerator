@@ -46,7 +46,7 @@ Here’s a virtual demo of the **ID Card Generator** in action:
 ![Untitled design](https://res.cloudinary.com/djh5qkdfk/image/upload/v1729284082/Untitled_design_1_yky5wg.gif)
 ## Links 📌
 
-- Live Site URL: https://doondigangadhar30.github.io/Rec_ID_Card_Generator/
+- Live Site URL: https://doondigangadhar30.github.io/IdentityCardGenerator/
 - Project Repository:https://github.com/doondigangadhar30/Rec_ID_Card_Generator
 - Let's Connect: [LinkedIn](https://www.linkedin.com/in/doondi)
 
