@@ -1,72 +1,99 @@
 <!-- 
   Project: Student Identity Card generator
-  Created: Friday, 18 October 2024
+  Created: Thursday, 7 December 2023
   Author: R Doondi Gangadhar
-  version: 1.0
+  version: 2.0
+  Features added in version 2: modified index page with button with hover effect,Footer tag added, minor logical changes
 -->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>User Details</title>
-    <link rel="stylesheet" href="style.css">
+    <title>User Details - Student Identity Card Generator</title>
+    <link rel="stylesheet" href="demo.css">
 </head>
 <body>
 
-<div class="input-section">
-    <label for="name">Name: </label>
-    <input type="text" id="name" placeholder="Enter your name"><br><br>
+    <div class="container">
+        <h1>Student Identity Card Generator</h1>
+        <form class="input-section">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" placeholder="Enter your name" required>
+            </div>
 
-    <label for="birthday">Date Of Birth:</label>
-    <input type="date" id="birthday"><br><br>
+            <div class="form-group">
+                <label for="birthday">Date of Birth:</label>
+                <input type="date" id="birthday" required>
+            </div>
 
-    <label for="blood">Blood Group:</label>
-    <select name="blood" id="blood">
-      <option value="A+">A+</option>
-      <option value="B+">B+</option>
-      <option value="A-">A-</option>
-      <option value="B-">B-</option>
-      <option value="AB+">AB+</option>
-      <option value="AB-">AB-</option>
-      <option value="O+">O+</option>
-      <option value="O-">O-</option>
-      <option value="NA">NA</option>
-    </select><br><br>
+            <div class="form-group">
+                <label for="blood">Blood Group:</label>
+                <select name="blood" id="blood" required>
+                    <option value="A+">A+</option>
+                    <option value="B+">B+</option>
+                    <option value="A-">A-</option>
+                    <option value="B-">B-</option>
+                    <option value="AB+">AB+</option>
+                    <option value="AB-">AB-</option>
+                    <option value="O+">O+</option>
+                    <option value="O-">O-</option>
+                    <option value="NA">NA</option>
+                </select>
+            </div>
 
-    <label for="roll">Roll Number: </label>
-    <input type="text" id="roll" placeholder="Enter your roll number"><br><br>
+            <div class="form-group">
+                <label for="roll">Roll Number:</label>
+                <input type="text" id="roll" placeholder="Enter your roll number" required>
+            </div>
 
-    <label for="branch">Study Branch:</label>
-    <select name="branch" id="branch">
-      <option value="CSE">CSE</option>
-      <option value="CSE(DS)">CSE(DS)</option>
-      <option value="CSE(ML)">CSE(ML)</option>
-      <option value="CSE(IOT)">CSE(IOT)</option>
-      <option value="CSE(CS)">CSE(CS)</option>
-      <option value="MECH">MECH</option>
-      <option value="ECE">ECE</option>
-      <option value="EEE">EEE</option>
-      <option value="CIVIL">CIVIL</option>
-      <option value="NA">NA</option>
-    </select><br><br>
+            <div class="form-group">
+                <label for="branch">Study Branch:</label>
+                <select name="branch" id="branch" required>
+                    <option value="CSE">CSE</option>
+                    <option value="CSE(DS)">CSE(DS)</option>
+                    <option value="CSE(ML)">CSE(ML)</option>
+                    <option value="CSE(IOT)">CSE(IOT)</option>
+                    <option value="CSE(CS)">CSE(CS)</option>
+                    <option value="MECH">MECH</option>
+                    <option value="ECE">ECE</option>
+                    <option value="EEE">EEE</option>
+                    <option value="CIVIL">CIVIL</option>
+                    <option value="NA">NA</option>
+                </select>
+            </div>
 
-    <label for="year">Year of Joining: </label>
-    <input type="number" id="year" placeholder="Enter year of joining"><br><br>
+            <div class="form-group">
+                <label for="year">Year of Joining:</label>
+                <input type="number" id="year" placeholder="Enter year of joining" required>
+            </div>
 
-    <label for="email">Email: </label>
-    <input type="email" id="email" placeholder="Enter your email"><br><br>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" placeholder="Enter your email" required>
+            </div>
 
-    <label for="address">Address: </label>
-    <input type="text" id="address" placeholder="Enter your house number, street name, village/City name"><br><br>
+            <div class="form-group">
+                <label for="address">Address:</label>
+                <input type="text" id="address" placeholder="Enter your address" required>
+            </div>
 
-    <label for="photo">Upload Photo: </label>
-    <input type="file" id="photo" accept="image/*"><br><br>
+            <div class="form-group">
+                <label for="photo">Upload Photo:</label>
+                <input type="file" id="photo" accept="image/*" required>
+            </div>
 
-    <button onclick="generateID()">Generate ID Card</button>
-</div>
+            <button onclick="generateID()">Generate ID Card</button>
+        </form>
+    </div>
 
-<script src="script.js"></script>
+    <footer>
+        <img src="idCardDemo.gif" title="project demo" height="280px" width="500px">
+        <h2 id="dh-footer">&copy; 2024 R Doondi Gangadhar. All rights reserved.</h2>
+    </footer>
 
+    <script src="script.js"></script>
 </body>
 </html>
