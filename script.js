@@ -27,7 +27,7 @@ function generateID() {
             };
 
             localStorage.setItem('idCardData', JSON.stringify(idCardData));
-            window.open('id-generation.html');
+            window.open('idgeneration.html');
         };
         reader.readAsDataURL(photo);
     } else {
