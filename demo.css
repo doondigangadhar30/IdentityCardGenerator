@@ -90,7 +90,7 @@ button:hover {
     background-color: #0056b3;
 }
 
-@media (max-width: 600px) {
+/**@media (max-width: 600px) {
     .container {
         padding: 15px;
         width: 90%;
@@ -99,7 +99,7 @@ button:hover {
     button {
         padding: 12px;
     }
-}
+}**/
 
 footer {
     text-align: center;
