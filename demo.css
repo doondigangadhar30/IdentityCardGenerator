@@ -11,11 +11,11 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    align-items: flex-start;
+    align-items: center;
     height: 100vh;
-    margin-left: 400px;
     padding: 20px;
     box-sizing: border-box;
+    margin: 0; /* Removed margin-left for better centering */
 }
 
 .container {
@@ -90,22 +90,28 @@ button:hover {
     background-color: #0056b3;
 }
 
-/**@media (max-width: 600px) {
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+
     .container {
         padding: 15px;
-        width: 90%;
+        width: 100%;
+        box-sizing: border-box;
     }
 
     button {
         padding: 12px;
+        width: 100%;
+        box-sizing: border-box;
     }
-}**/
+}
 
 footer {
     text-align: center;
     width: 100%;
     padding-top: 40px;
-    padding-right: 500px;
     margin-top: auto;
 }
 
